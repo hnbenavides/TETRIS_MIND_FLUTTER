@@ -12,155 +12,159 @@ Version: linux 1.100.3
 Logging Categories:
     General
 
-Thu Jun 12 2025 [00:18:12 GMT+0000 (Coordinated Universal Time)] Log file started
-[12:18:12 AM] [General] [Info] Searching for SDKs...
-[12:18:12 AM] [General] [Info] Environment PATH:
-[12:18:12 AM] [General] [Info]     /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli
-[12:18:12 AM] [General] [Info]     /home/codespace/.local/bin
-[12:18:12 AM] [General] [Info]     /home/codespace/.dotnet
-[12:18:12 AM] [General] [Info]     /home/codespace/nvm/current/bin
-[12:18:12 AM] [General] [Info]     /home/codespace/.php/current/bin
-[12:18:12 AM] [General] [Info]     /home/codespace/.python/current/bin
-[12:18:12 AM] [General] [Info]     /home/codespace/java/current/bin
-[12:18:12 AM] [General] [Info]     /home/codespace/.ruby/current/bin
-[12:18:12 AM] [General] [Info]     /home/codespace/.local/bin
-[12:18:12 AM] [General] [Info]     /usr/local/python/current/bin
-[12:18:12 AM] [General] [Info]     /usr/local/py-utils/bin
-[12:18:12 AM] [General] [Info]     /usr/local/jupyter
-[12:18:12 AM] [General] [Info]     /usr/local/oryx
-[12:18:12 AM] [General] [Info]     /usr/local/go/bin
-[12:18:12 AM] [General] [Info]     /go/bin
-[12:18:12 AM] [General] [Info]     /usr/local/sdkman/bin
-[12:18:12 AM] [General] [Info]     /usr/local/sdkman/candidates/java/current/bin
-[12:18:12 AM] [General] [Info]     /usr/local/sdkman/candidates/gradle/current/bin
-[12:18:12 AM] [General] [Info]     /usr/local/sdkman/candidates/maven/current/bin
-[12:18:12 AM] [General] [Info]     /usr/local/sdkman/candidates/ant/current/bin
-[12:18:12 AM] [General] [Info]     /usr/local/rvm/gems/default/bin
-[12:18:12 AM] [General] [Info]     /usr/local/rvm/gems/default@global/bin
-[12:18:12 AM] [General] [Info]     /usr/local/rvm/rubies/default/bin
-[12:18:12 AM] [General] [Info]     /usr/local/share/rbenv/bin
-[12:18:12 AM] [General] [Info]     /usr/local/php/current/bin
-[12:18:12 AM] [General] [Info]     /opt/conda/bin
-[12:18:12 AM] [General] [Info]     /usr/local/nvs
-[12:18:12 AM] [General] [Info]     /usr/local/share/nvm/current/bin
-[12:18:12 AM] [General] [Info]     /usr/local/hugo/bin
-[12:18:12 AM] [General] [Info]     /usr/local/sbin
-[12:18:12 AM] [General] [Info]     /usr/local/bin
-[12:18:12 AM] [General] [Info]     /usr/sbin
-[12:18:12 AM] [General] [Info]     /usr/bin
-[12:18:12 AM] [General] [Info]     /sbin
-[12:18:12 AM] [General] [Info]     /bin
-[12:18:12 AM] [General] [Info]     /usr/share/dotnet
-[12:18:12 AM] [General] [Info]     /home/codespace/.dotnet/tools
-[12:18:12 AM] [General] [Info]     /usr/local/rvm/bin
-[12:18:13 AM] [General] [Info] Took 533ms to search for 0 projects (5 levels)
-[12:18:13 AM] [General] [Info]     Found projects:
-[12:18:13 AM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules). 0 projects remain.
-[12:18:13 AM] [General] [Info] Searching for flutter
-[12:18:13 AM] [General] [Info]     Looking for flutter in:
-[12:18:13 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli
-[12:18:13 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli -> /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.local/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet -> /home/codespace/.dotnet/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/nvm/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.php/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.python/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/java/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.ruby/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.local/bin
-[12:18:13 AM] [General] [Info]         /usr/local/python/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/py-utils/bin
-[12:18:13 AM] [General] [Info]         /usr/local/jupyter
-[12:18:13 AM] [General] [Info]         /usr/local/jupyter -> /usr/local/jupyter/bin
-[12:18:13 AM] [General] [Info]         /usr/local/oryx
-[12:18:13 AM] [General] [Info]         /usr/local/oryx -> /usr/local/oryx/bin
-[12:18:13 AM] [General] [Info]         /usr/local/go/bin
-[12:18:13 AM] [General] [Info]         /go/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/java/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/gradle/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/maven/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/ant/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/gems/default/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/gems/default@global/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/rubies/default/bin
-[12:18:13 AM] [General] [Info]         /usr/local/share/rbenv/bin
-[12:18:13 AM] [General] [Info]         /usr/local/php/current/bin
-[12:18:13 AM] [General] [Info]         /opt/conda/bin
-[12:18:13 AM] [General] [Info]         /usr/local/nvs
-[12:18:13 AM] [General] [Info]         /usr/local/nvs -> /usr/local/nvs/bin
-[12:18:13 AM] [General] [Info]         /usr/local/share/nvm/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/hugo/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sbin
-[12:18:13 AM] [General] [Info]         /usr/local/bin
-[12:18:13 AM] [General] [Info]         /usr/sbin
-[12:18:13 AM] [General] [Info]         /usr/bin
-[12:18:13 AM] [General] [Info]         /sbin
-[12:18:13 AM] [General] [Info]         /bin
-[12:18:13 AM] [General] [Info]         /usr/share/dotnet
-[12:18:13 AM] [General] [Info]         /usr/share/dotnet -> /usr/share/dotnet/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet/tools
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet/tools -> /home/codespace/.dotnet/tools/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/snap/flutter/common/flutter
-[12:18:13 AM] [General] [Info]         /home/codespace/snap/flutter/common/flutter -> /home/codespace/snap/flutter/common/flutter/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/flutter-sdk
-[12:18:13 AM] [General] [Info]         /home/codespace/flutter-sdk -> /home/codespace/flutter-sdk/bin
-[12:18:13 AM] [General] [Info]         /google/flutter
-[12:18:13 AM] [General] [Info]         /google/flutter -> /google/flutter/bin
-[12:18:13 AM] [General] [Info]         /opt/flutter
-[12:18:13 AM] [General] [Info]         /opt/flutter -> /opt/flutter/bin
-[12:18:13 AM] [General] [Info]     Found at:
-[12:18:13 AM] [General] [Info]     Candidate paths to be post-filtered:
-[12:18:13 AM] [General] [Info]     Returning SDK path undefined for flutter
-[12:18:13 AM] [General] [Info] Searching for dart
-[12:18:13 AM] [General] [Info]     Looking for dart in:
-[12:18:13 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli
-[12:18:13 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli -> /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.local/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet -> /home/codespace/.dotnet/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/nvm/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.php/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.python/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/java/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.ruby/current/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.local/bin
-[12:18:13 AM] [General] [Info]         /usr/local/python/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/py-utils/bin
-[12:18:13 AM] [General] [Info]         /usr/local/jupyter
-[12:18:13 AM] [General] [Info]         /usr/local/jupyter -> /usr/local/jupyter/bin
-[12:18:13 AM] [General] [Info]         /usr/local/oryx
-[12:18:13 AM] [General] [Info]         /usr/local/oryx -> /usr/local/oryx/bin
-[12:18:13 AM] [General] [Info]         /usr/local/go/bin
-[12:18:13 AM] [General] [Info]         /go/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/java/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/gradle/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/maven/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sdkman/candidates/ant/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/gems/default/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/gems/default@global/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/rubies/default/bin
-[12:18:13 AM] [General] [Info]         /usr/local/share/rbenv/bin
-[12:18:13 AM] [General] [Info]         /usr/local/php/current/bin
-[12:18:13 AM] [General] [Info]         /opt/conda/bin
-[12:18:13 AM] [General] [Info]         /usr/local/nvs
-[12:18:13 AM] [General] [Info]         /usr/local/nvs -> /usr/local/nvs/bin
-[12:18:13 AM] [General] [Info]         /usr/local/share/nvm/current/bin
-[12:18:13 AM] [General] [Info]         /usr/local/hugo/bin
-[12:18:13 AM] [General] [Info]         /usr/local/sbin
-[12:18:13 AM] [General] [Info]         /usr/local/bin
-[12:18:13 AM] [General] [Info]         /usr/sbin
-[12:18:13 AM] [General] [Info]         /usr/bin
-[12:18:13 AM] [General] [Info]         /sbin
-[12:18:13 AM] [General] [Info]         /bin
-[12:18:13 AM] [General] [Info]         /usr/share/dotnet
-[12:18:13 AM] [General] [Info]         /usr/share/dotnet -> /usr/share/dotnet/bin
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet/tools
-[12:18:13 AM] [General] [Info]         /home/codespace/.dotnet/tools -> /home/codespace/.dotnet/tools/bin
-[12:18:13 AM] [General] [Info]         /usr/local/rvm/bin
-[12:18:13 AM] [General] [Info]     Found at:
-[12:18:13 AM] [General] [Info]     Candidate paths to be post-filtered:
-[12:18:13 AM] [General] [Info]     Returning SDK path undefined for dart
+Thu Jun 12 2025 [00:21:53 GMT+0000 (Coordinated Universal Time)] Log file started
+[12:21:53 AM] [General] [Info] Searching for SDKs...
+[12:21:53 AM] [General] [Info] Environment PATH:
+[12:21:53 AM] [General] [Info]     /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli
+[12:21:53 AM] [General] [Info]     /home/codespace/.local/bin
+[12:21:53 AM] [General] [Info]     /home/codespace/.dotnet
+[12:21:53 AM] [General] [Info]     /home/codespace/nvm/current/bin
+[12:21:53 AM] [General] [Info]     /home/codespace/.php/current/bin
+[12:21:53 AM] [General] [Info]     /home/codespace/.python/current/bin
+[12:21:53 AM] [General] [Info]     /home/codespace/java/current/bin
+[12:21:53 AM] [General] [Info]     /home/codespace/.ruby/current/bin
+[12:21:53 AM] [General] [Info]     /home/codespace/.local/bin
+[12:21:53 AM] [General] [Info]     /usr/local/python/current/bin
+[12:21:53 AM] [General] [Info]     /usr/local/py-utils/bin
+[12:21:53 AM] [General] [Info]     /usr/local/jupyter
+[12:21:53 AM] [General] [Info]     /usr/local/oryx
+[12:21:53 AM] [General] [Info]     /usr/local/go/bin
+[12:21:53 AM] [General] [Info]     /go/bin
+[12:21:53 AM] [General] [Info]     /usr/local/sdkman/bin
+[12:21:53 AM] [General] [Info]     /usr/local/sdkman/candidates/java/current/bin
+[12:21:53 AM] [General] [Info]     /usr/local/sdkman/candidates/gradle/current/bin
+[12:21:53 AM] [General] [Info]     /usr/local/sdkman/candidates/maven/current/bin
+[12:21:53 AM] [General] [Info]     /usr/local/sdkman/candidates/ant/current/bin
+[12:21:53 AM] [General] [Info]     /usr/local/rvm/gems/default/bin
+[12:21:53 AM] [General] [Info]     /usr/local/rvm/gems/default@global/bin
+[12:21:53 AM] [General] [Info]     /usr/local/rvm/rubies/default/bin
+[12:21:53 AM] [General] [Info]     /usr/local/share/rbenv/bin
+[12:21:53 AM] [General] [Info]     /usr/local/php/current/bin
+[12:21:53 AM] [General] [Info]     /opt/conda/bin
+[12:21:53 AM] [General] [Info]     /usr/local/nvs
+[12:21:53 AM] [General] [Info]     /usr/local/share/nvm/current/bin
+[12:21:53 AM] [General] [Info]     /usr/local/hugo/bin
+[12:21:53 AM] [General] [Info]     /usr/local/sbin
+[12:21:53 AM] [General] [Info]     /usr/local/bin
+[12:21:53 AM] [General] [Info]     /usr/sbin
+[12:21:53 AM] [General] [Info]     /usr/bin
+[12:21:53 AM] [General] [Info]     /sbin
+[12:21:53 AM] [General] [Info]     /bin
+[12:21:53 AM] [General] [Info]     /usr/share/dotnet
+[12:21:53 AM] [General] [Info]     /home/codespace/.dotnet/tools
+[12:21:53 AM] [General] [Info]     /usr/local/rvm/bin
+[12:21:54 AM] [General] [Info] Took 712ms to search for 0 projects (5 levels)
+[12:21:54 AM] [General] [Info]     Found projects:
+[12:21:54 AM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules). 0 projects remain.
+[12:21:54 AM] [General] [Info] Searching for flutter
+[12:21:54 AM] [General] [Info]     Looking for flutter in:
+[12:21:54 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli
+[12:21:54 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli -> /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.local/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet -> /home/codespace/.dotnet/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/nvm/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.php/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.python/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/java/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.ruby/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.local/bin
+[12:21:54 AM] [General] [Info]         /usr/local/python/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/py-utils/bin
+[12:21:54 AM] [General] [Info]         /usr/local/jupyter
+[12:21:54 AM] [General] [Info]         /usr/local/jupyter -> /usr/local/jupyter/bin
+[12:21:54 AM] [General] [Info]         /usr/local/oryx
+[12:21:54 AM] [General] [Info]         /usr/local/oryx -> /usr/local/oryx/bin
+[12:21:54 AM] [General] [Info]         /usr/local/go/bin
+[12:21:54 AM] [General] [Info]         /go/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/java/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/gradle/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/maven/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/ant/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/gems/default/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/gems/default@global/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/rubies/default/bin
+[12:21:54 AM] [General] [Info]         /usr/local/share/rbenv/bin
+[12:21:54 AM] [General] [Info]         /usr/local/php/current/bin
+[12:21:54 AM] [General] [Info]         /opt/conda/bin
+[12:21:54 AM] [General] [Info]         /usr/local/nvs
+[12:21:54 AM] [General] [Info]         /usr/local/nvs -> /usr/local/nvs/bin
+[12:21:54 AM] [General] [Info]         /usr/local/share/nvm/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/hugo/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sbin
+[12:21:54 AM] [General] [Info]         /usr/local/bin
+[12:21:54 AM] [General] [Info]         /usr/sbin
+[12:21:54 AM] [General] [Info]         /usr/bin
+[12:21:54 AM] [General] [Info]         /sbin
+[12:21:54 AM] [General] [Info]         /bin
+[12:21:54 AM] [General] [Info]         /usr/share/dotnet
+[12:21:54 AM] [General] [Info]         /usr/share/dotnet -> /usr/share/dotnet/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet/tools
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet/tools -> /home/codespace/.dotnet/tools/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/snap/flutter/common/flutter
+[12:21:54 AM] [General] [Info]         /home/codespace/snap/flutter/common/flutter -> /home/codespace/snap/flutter/common/flutter/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/flutter-sdk
+[12:21:54 AM] [General] [Info]         /home/codespace/flutter-sdk -> /home/codespace/flutter-sdk/bin
+[12:21:54 AM] [General] [Info]         /google/flutter
+[12:21:54 AM] [General] [Info]         /google/flutter -> /google/flutter/bin
+[12:21:54 AM] [General] [Info]         /opt/flutter
+[12:21:54 AM] [General] [Info]         /opt/flutter -> /opt/flutter/bin
+[12:21:54 AM] [General] [Info]     Found at:
+[12:21:54 AM] [General] [Info]     Candidate paths to be post-filtered:
+[12:21:54 AM] [General] [Info]     Returning SDK path undefined for flutter
+[12:21:54 AM] [General] [Info] Searching for dart
+[12:21:54 AM] [General] [Info]     Looking for dart in:
+[12:21:54 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli
+[12:21:54 AM] [General] [Info]         /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli -> /vscode/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.local/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet -> /home/codespace/.dotnet/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/nvm/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.php/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.python/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/java/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.ruby/current/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.local/bin
+[12:21:54 AM] [General] [Info]         /usr/local/python/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/py-utils/bin
+[12:21:54 AM] [General] [Info]         /usr/local/jupyter
+[12:21:54 AM] [General] [Info]         /usr/local/jupyter -> /usr/local/jupyter/bin
+[12:21:54 AM] [General] [Info]         /usr/local/oryx
+[12:21:54 AM] [General] [Info]         /usr/local/oryx -> /usr/local/oryx/bin
+[12:21:54 AM] [General] [Info]         /usr/local/go/bin
+[12:21:54 AM] [General] [Info]         /go/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/java/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/gradle/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/maven/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sdkman/candidates/ant/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/gems/default/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/gems/default@global/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/rubies/default/bin
+[12:21:54 AM] [General] [Info]         /usr/local/share/rbenv/bin
+[12:21:54 AM] [General] [Info]         /usr/local/php/current/bin
+[12:21:54 AM] [General] [Info]         /opt/conda/bin
+[12:21:54 AM] [General] [Info]         /usr/local/nvs
+[12:21:54 AM] [General] [Info]         /usr/local/nvs -> /usr/local/nvs/bin
+[12:21:54 AM] [General] [Info]         /usr/local/share/nvm/current/bin
+[12:21:54 AM] [General] [Info]         /usr/local/hugo/bin
+[12:21:54 AM] [General] [Info]         /usr/local/sbin
+[12:21:54 AM] [General] [Info]         /usr/local/bin
+[12:21:54 AM] [General] [Info]         /usr/sbin
+[12:21:54 AM] [General] [Info]         /usr/bin
+[12:21:54 AM] [General] [Info]         /sbin
+[12:21:54 AM] [General] [Info]         /bin
+[12:21:54 AM] [General] [Info]         /usr/share/dotnet
+[12:21:54 AM] [General] [Info]         /usr/share/dotnet -> /usr/share/dotnet/bin
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet/tools
+[12:21:54 AM] [General] [Info]         /home/codespace/.dotnet/tools -> /home/codespace/.dotnet/tools/bin
+[12:21:54 AM] [General] [Info]         /usr/local/rvm/bin
+[12:21:54 AM] [General] [Info]     Found at:
+[12:21:54 AM] [General] [Info]     Candidate paths to be post-filtered:
+[12:21:54 AM] [General] [Info]     Returning SDK path undefined for dart[[12:26:49 AM] [General] [Info] Extension deactivate was called (isRestart: false)
+[12:26:49 AM] [General] [Error] Error cleaning up during extension shutdown: Canceled: Canceled
+[12:26:49 AM] [General] [Info] Extension cleanup done
+[12:26:49 AM] [General] [Info] Closing all loggers...
+Thu Jun 12 2025 [00:26:49 GMT+0000 (Coordinated Universal Time)] Log file ended
