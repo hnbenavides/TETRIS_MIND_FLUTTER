@@ -6,11 +6,11 @@ RUN apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir /home/codespace
-WORKDIR /home/codespace
+RUN mkdir /home/workspaces
+WORKDIR /home/workspaces
 
-ENV PUB_CACHE=/home/codespace/.pub_cache
-ENV PATH="/home/codespace/flutter/bin:$PATH"
+ENV PUB_CACHE=/home/workspaces/.pub_cache
+ENV PATH="/home/workspaces/flutter/bin:$PATH"
 
 RUN git clone https://github.com/flutter/flutter && \
-    /home/codespace/flutter/bin/flutter config --enable-web
+    /home/workspaces/flutter/bin/flutter config --enable-web
